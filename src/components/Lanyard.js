@@ -6,6 +6,7 @@ import { useGLTF, useTexture, Environment, Lightformer } from '@react-three/drei
 import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphericalJoint } from '@react-three/rapier';
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
+
 // replace with your own imports, see the usage snippet for details
 import cardGLB from "../assets/card.glb";
 import lanyard from "../assets/lanyard.png";
@@ -34,6 +35,7 @@ export default function Lanyard({ position = [0, 0, 30], gravity = [0, -40, 0], 
         </Environment>
       </Canvas>
     </div>
+    
   );
 }
 function Band({ maxSpeed = 50, minSpeed = 0 }) {
@@ -144,9 +146,10 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
           useMap
           map={texture}
           repeat={[-4, 1]}
-          lineWidth={4}
+          lineWidth={3}
         />
       </mesh>
+      
     </>
   );
 }
