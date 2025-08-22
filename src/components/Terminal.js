@@ -44,9 +44,12 @@ const Terminal = () => {
     `,
     projects: `
       Projects:<br />
-      1. <a href="https://portfolio.example.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Portfolio Website</a> - A terminal-style portfolio (this one!)<br />
-      2. <a href="https://taskmanager.example.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Task Manager</a> - A React-based task management app<br />
-      3. <a href="https://weatherapp.example.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Weather App</a> - Real-time weather updates using APIs
+      1. <a href="https://portfolio-xyvu.onrender.com" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Developer Portfolio Website</a> - A terminal-style portfolio (this one!)<br />
+      1. <a href="https://whatsapp-frontend-6ll5.onrender.com/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">WhatsApp Clone</a> - A simple chat application using React<br />
+      3. <a href="https://ms2716.github.io/Whack-a-Mole/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Whack-a-Mole</a> - Whack-a-Mole Game to play in brower<br />
+      2. <a href="https://ms2716.github.io/MaitriSuthar/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Portfolio Website</a> - A Static website using the HTML, CSS and JS<br />
+      3. <a href="https://ms2716.github.io/NotesApp/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">Notes App</a> - Note Taking site basic note create and delete<br />
+
     `,
     skills: `Skills:<br />
       - Programming Languages: HTML, CSS, JavaScript, Python, React<br />
